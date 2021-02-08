@@ -25,7 +25,6 @@ image: Active Storage
 | ----------------- | ------------- | ---------------------------- |
 | name              | string        | null: false                  |
 | introduction      | text          | null: false                  |
-| image             | text          | null: false                  |
 
 ### Association
 
