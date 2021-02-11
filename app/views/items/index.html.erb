@@ -21,7 +21,13 @@
     <input type="text" id="search-bar" placeholder="Serch item...">
     <a href="#"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
   </form>
-		<div class="links">検索ナビ</div>
+		<div class="links">
+      <% if user_signed_in? %>
+        <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
+      <% else %>
+        <%= link_to "ログイン", user_session_path %>
+      <% end %>  
+    </div>
     </header>
 		
     <%# メイン画面 %>
