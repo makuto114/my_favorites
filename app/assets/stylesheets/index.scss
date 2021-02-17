@@ -85,21 +85,13 @@ input#search-bar{
 
 }
 
-.item-name{
-  height: 10%;
-  text-align: center;
-}
-
-.item-name a{
-  margin: auto;
-}
-
 .item-image{
   height: 100%;
   width: 100%;
 }
 
 .item-image img {
+  border-radius: 5px 5px 0 0;
   height: 100%;
-  width: 100%;
+  width: 246px;
 }
